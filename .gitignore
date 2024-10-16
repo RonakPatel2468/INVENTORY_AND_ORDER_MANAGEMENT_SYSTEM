@@ -1,0 +1,56 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files (VSCode, IntelliJ, etc.)
+.vscode/
+.idea/
+
+# Coverage directory used by testing tools
+coverage/
+
+# Production build
+dist/
+build/
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Temporary files
+*.tmp
+*.temp
+
+# Debugger files
+*.pid
+*.seed
+*.pid.lock
+
+# Local environment config
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Miscellaneous
+*.swp
+*.swo
+*.bak
+
+# Ignore public static files for Heroku/Render if included in deployment
+/public/static/
